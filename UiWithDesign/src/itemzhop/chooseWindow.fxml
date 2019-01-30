@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<AnchorPane prefHeight="418.0" prefWidth="427.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="itemzhop.ChooseWindow">
+   <children>
+      <ImageView fitHeight="418.0" fitWidth="427.0" pickOnBounds="true">
+         <image>
+            <Image url="@background-blur.jpg" />
+         </image></ImageView>
+      <GridPane focusTraversable="true" layoutX="14.0" layoutY="4.0" prefHeight="370.0" prefWidth="413.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Button id="btn_SignIn" fx:id="btn_SignIn" layoutX="1000.0" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#signInButtonAction" prefHeight="50.0" prefWidth="190.0" rotate="-0.0" text="Giriş" textAlignment="CENTER" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.valignment="BOTTOM" GridPane.vgrow="ALWAYS" />
+            <Button id="btn_CreateAccount" fx:id="btn_CreateAccount" mnemonicParsing="false" onAction="#createAccountButtonAction" prefHeight="50.0" prefWidth="190.0" text="Yeni Hesap" textAlignment="CENTER" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.rowIndex="1" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS" />
+            <Button id="btn_About" fx:id="btn_About" mnemonicParsing="false" prefHeight="32.0" prefWidth="121.0" text="Hakkımızda" textAlignment="CENTER" GridPane.halignment="RIGHT" GridPane.hgrow="ALWAYS" GridPane.rowIndex="2" GridPane.valignment="BOTTOM" GridPane.vgrow="ALWAYS">
+               <GridPane.margin>
+                  <Insets right="30.0" />
+               </GridPane.margin></Button>
+         </children>
+      </GridPane>
+   </children>
+</AnchorPane>

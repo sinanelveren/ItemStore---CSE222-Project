@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="385.0" prefWidth="482.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="itemzhop.CreateAccount">
+   <children>
+      <ImageView fitHeight="400.0" fitWidth="583.0" focusTraversable="true" layoutX="-25.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@background-blur.jpg" />
+         </image></ImageView>
+      <GridPane layoutX="137.0" layoutY="43.0" prefHeight="303.0" prefWidth="316.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="208.0" minWidth="10.0" prefWidth="132.0" />
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="241.0" minWidth="10.0" prefWidth="184.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <TextField fx:id="txt_userName" onAction="#createActionHandler" GridPane.columnIndex="1" />
+            <PasswordField fx:id="txt_password" onAction="#createActionHandler" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            <PasswordField fx:id="txt_passRepeat" onAction="#createActionHandler" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+            <Button fx:id="btn_Create" alignment="CENTER" mnemonicParsing="false" onAction="#createActionHandler" prefHeight="26.0" prefWidth="119.0" text="Oluştur" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+            <Button fx:id="btn_cancel" contentDisplay="TOP" mnemonicParsing="false" onAction="#backToDoChoseWindow" prefHeight="26.0" prefWidth="109.0" text="İptal Et" GridPane.rowIndex="3" />
+            <Label focusTraversable="false" text="Kullanıcı Adı">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font></Label>
+            <Label text="Şifre" GridPane.rowIndex="1">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font></Label>
+            <Label text="Tekrar Şifre" GridPane.rowIndex="2">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font></Label>
+         </children>
+      </GridPane>
+   </children>
+</AnchorPane>

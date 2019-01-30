@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.geometry.Rectangle2D?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.Bloom?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.shape.Sphere?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="itemzhop.Controller">
+   <children>
+      <AnchorPane layoutX="10.0" layoutY="11.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="-10.0">
+         <children>
+            <ImageView fitHeight="857.0" fitWidth="1073.0" pickOnBounds="true" AnchorPane.bottomAnchor="-24.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+               <image>
+                  <Image url="@background-blur.jpg" />
+               </image>
+               <viewport>
+                  <Rectangle2D />
+               </viewport>
+            </ImageView>
+            <AnchorPane AnchorPane.bottomAnchor="12.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0">
+               <children>
+                <Pane focusTraversable="true" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" onDragDetected="#loadItems" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0">
+                  <children>
+                        <AnchorPane layoutX="12.0" layoutY="277.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308">
+                           <children>
+                          <Pane layoutY="-8.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="0.0">
+                                 <children>
+                                    <TableView id="storeTable" fx:id="storeTable" layoutX="21.0" layoutY="94.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="373.0" prefWidth="948.0">
+                                       <columnResizePolicy>
+                                          <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+                                       </columnResizePolicy>
+                                       <padding>
+                                          <Insets bottom="10.0" left="10.0" right="10.0" />
+                                       </padding>
+                                    </TableView>
+                                    <TextField id="nameSearch" fx:id="txt_search" layoutX="606.0" layoutY="59.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="26.0" prefWidth="234.0" promptText="Aranacak Ürünü Giriniz" />
+                                    <Button fx:id="btn_search" layoutX="846.0" layoutY="59.0" mnemonicParsing="false" onAction="#btn_search_click" prefHeight="25.0" prefWidth="123.0" text="Ara" />
+                                    <Label layoutX="21.0" layoutY="59.0" text="Satıştaki Ürünler">
+                                       <font>
+                                          <Font name="System Bold" size="22.0" />
+                                       </font>
+                                    </Label>
+                                 </children>
+                              </Pane>
+                           </children>
+                        </AnchorPane>
+                        <Button fx:id="btn_buy" layoutX="38.0" layoutY="763.0" mnemonicParsing="false" onAction="#itemBuy" prefHeight="48.0" prefWidth="403.0" text="Ürünü Al">
+                           <font>
+                              <Font name="System Bold" size="22.0" />
+                           </font>
+                        </Button>
+                        <Button fx:id="btn_offer_item" layoutX="580.0" layoutY="763.0" mnemonicParsing="false" onAction="#btn_offer_item_clicked" prefHeight="48.0" prefWidth="403.0" text="Teklif Ver">
+                           <font>
+                              <Font name="System Bold" size="22.0" />
+                           </font>
+                        </Button>
+                  </children>
+                </Pane>
+               </children>
+            </AnchorPane>
+            <Pane id="" fx:id="" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="315.0" prefWidth="969.0" AnchorPane.bottomAnchor="518.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="94.0" AnchorPane.topAnchor="0.0">
+               <children>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" height="39.0" layoutX="87.0" layoutY="15.0" stroke="BLACK" strokeType="INSIDE" width="162.0">
+              <fill>
+                <Color blue="0.200" green="1.000" red="0.839" fx:id="x2" />
+              </fill>
+            </Rectangle>
+                  <Button fx:id="btnArkadaslarim" layoutX="87.0" layoutY="65.0" mnemonicParsing="false" onAction="#loadItems" prefHeight="39.0" prefWidth="162.0" text="Profilime Git" />
+            <ImageView id="Coins-512.png" fitHeight="54.0" fitWidth="43.0" layoutX="206.0" layoutY="13.0" preserveRatio="true">
+              <image>
+                <Image preserveRatio="true" smooth="true" url="@Coins-512.png" />
+              </image>
+            </ImageView>
+                  <Button fx:id="btn_create_item" layoutX="755.0" layoutY="22.0" mnemonicParsing="false" onAction="#btn_create_click" prefHeight="43.0" prefWidth="178.0" text="Yeni Eşya Oluştur" />
+                  <Button layoutX="755.0" layoutY="69.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="178.0" text="Kullanıcı Ara" />
+                  <Button layoutX="755.0" layoutY="118.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="178.0" text="Para Satın Al" />
+                  <Button layoutX="755.0" layoutY="168.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="178.0" text="Müzayede Başlat" />
+                  <Button layoutX="755.0" layoutY="219.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="178.0" text="Ürün Sat" />
+                  <Label layoutX="335.0" layoutY="35.0" />
+                  <Button layoutX="545.0" layoutY="22.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="178.0" text="En Çok Satışa Çıkan Ürünler" />
+                  <Button layoutX="545.0" layoutY="69.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="178.0" text="En Çok Satılan Ürünler" />
+                  <Button layoutX="545.0" layoutY="118.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="178.0" text="En Çok satış Yapan Kullanıcılar" />
+                  <Button layoutX="545.0" layoutY="168.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="178.0" text="En Çok Teklif Verilen Ürünler" />
+                  <Button layoutX="545.0" layoutY="219.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="178.0" text="En Çok Teklif Veren Kullanıcılar" />
+                  <Button layoutX="338.0" layoutY="22.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="178.0" text="Son Hareketlerim" />
+                  <Button layoutX="338.0" layoutY="69.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="178.0" text="Tüm Ürünlerimi Satışa Çıkar" />
+                  <Button layoutX="338.0" layoutY="118.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="178.0" text="Aynı Fiyattaki Ürünler" />
+                  <Button layoutX="338.0" layoutY="168.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="178.0" text="Ürünlerime Teklif Verenler" />
+                  <Button layoutX="338.0" layoutY="219.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="178.0" text="Ürünlerim" />
+                  <Sphere cache="true" cacheHint="SPEED" focusTraversable="true" nodeOrientation="RIGHT_TO_LEFT" radius="0.77">
+                     <effect>
+                        <Bloom />
+                     </effect>
+                     <cursor>
+                        <Cursor fx:constant="MOVE" />
+                     </cursor>
+                  </Sphere>
+               </children>
+            </Pane>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

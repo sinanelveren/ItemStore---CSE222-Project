@@ -1,0 +1,122 @@
+1,Gossamer Gloves,Hands,Armor
+2,Abjurer's Tunic,Chest,Armor
+3,Greenhealer's Gauntlets,Hands,Armor
+4,Kilt of Immortal Nature,Legs,Armor
+5,Belt of Primal Majesty,Waist,Armor
+6,Cloudrunner Girdle,Waist,Armor
+7,Nightscape Shoulders,Shoulder,Armor
+8,Silk Trousers,Legs,Armor
+9,Aran's Sorcerous Slacks,Legs,Armor
+10,Spaulders of the Torn-heart,Shoulder,Armor
+11,Skettis Footwraps,Feet,Armor
+12,Taunka Belt,Waist,Armor
+13,Muradin Shoulders,Shoulder,Armor
+14,Archer's Trousers,Legs,Armor
+15,Thistlefur Cloak,Back,Armor
+16,Sage's Cloth,Chest,Armor
+17,Barbaric Harness,Chest,Armor
+18,General's DreadweaveBoots,Feet,Armor
+19,Warlord's DreadweaveMantle,Shoulder,Armor
+20,Purifier's Pantaloons,Legs,Armor
+21,Faceguard of the Eyeless Horror,Head,Armor
+22,Warm Cloak,Back,Armor
+23,Cadet Boots,Feet,Armor
+24,Sparkleshell Gauntlets,Hands,Armor
+25,Brigade Pauldrons,Shoulder,Armor
+26,Mooncloth Gloves,Hands,Armor
+27,Mooncloth Mantle,Shoulder,Armor
+28,Silver-lined Belt,Waist,Armor
+29,Dervish Spaulders,Shoulder,Armor
+30,Gryphon Mail Legguards,Legs,Armor
+31,Antiquated Cloak,Back,Armor
+32,Azure Lightblade,Daggers,Weapon
+33,Audi's Embroidered Boots,Feet,Armor
+34,Pauldrons of Abyssal Fury,Shoulder,Armor
+35,Long Draping Cape,Back,Armor
+36,Heavy Weave Gloves,Hands,Armor
+37,Vanguard Pauldrons,Shoulder,Armor
+38,Blessed Hauberk of Undead Slaying,Chest,Armor
+39,ValorousKirinTorHood,Head,Armor
+40,Black Whelp Boots,Feet,Armor
+41,Kurken Hide Jerkin,Chest,Armor
+42,Prismatic Mittens of Mending,Hands,Armor
+43,Incanter's Robe,Chest,Armor
+44,Rageclaw Boots,Feet,Armor
+45,Veteran Cloak,Back,Armor
+46,Thistlefur Cap,Head,Armor
+47,Hard Crawler Carapace,Chest,Armor
+48,Ironheel Boots,Feet,Armor
+49,Enormous Ogre Belt,Waist,Armor
+50,Marshal's Silk Gloves,Hands,Armor
+51,Heroic Gauntlets,Hands,Armor
+52,Lofty Armguards,Wrist,Armor
+53,Boots of Zealotry,Feet,Armor
+54,Kessel's Sturdy Riding Handle,Waist,Armor
+55,Jouster's Legplates,Legs,Armor
+56,Girdle of Divine Blessing,Waist,Armor
+57,Jade Breastplate,Chest,Armor
+58,Alabaster Breastplate,Chest,Armor
+59,Darkmoon Chain Shirt,Chest,Armor
+60,Lofty ShoulderPads,Shoulder,Armor
+61,Heroic Pauldrons,Shoulder,Armor
+62,Warlord's Iron-Epaulets,Shoulder,Armor
+63,Ghoul Hammer,One-HandedMaces,Weapon
+64,Gemstone Dagger,Daggers,Weapon
+65,Gutwrencher,Daggers,Weapon
+66,Demon Blade,Daggers,Weapon
+67,Scarlet Kris,Daggers,Weapon
+68,Compact Hammer,One-Handed Maces,Weapon
+69,Sylvan Shortbow,Bows,Weapon
+70,Growler's Intimidation,Staves,Weapon
+71,Stave of the Spiritcaller,Staves,Weapon
+72,Greatsword of Horrid Dreams,Swords,Weapon
+73,Soul Breaker,One-Handed Axes,Weapon
+74,Might of Hakkar,One-Handed Maces,Weapon
+75,Greatsword of Horrid Dreams,One-Handed Swords,Weapon
+76,Arcane Forged Shortsword,One-Handed Swords,Weapon
+77,Darksteel Bastard Sword,Two-Handed Swords,Weapon
+78,Stock Shortsword,One-Handed Swords,Weapon
+79,Whirlwind Sword,Two-Handed Swords,Weapon
+80,Legionnaire's Sword,One-Handed Swords,Weapon
+81,Chromatically Tempered Sword,One-Handed Swords,Weapon
+82,Baron's Broadsword,One-Handed Swords,Weapon
+83,Bone Collector Sword,One-Handed Swords,Weapon
+84,Elixir of Frost Power,Elixir,Consumable
+85,Elixir of Ogre's Strength,Elixir,Consumable
+86,Elixir of Mighty Defense,Elixir,Consumable
+87,Elixir of Armor Piercing,Elixir,Consumable
+88,Elixir of Mighty Mageblood,Elixir,Consumable
+89,Elixir of Deadly Strikes,Elixir,Consumable
+90,Elixir of Lightning Speed,Elixir,Consumable
+91,Elixir of Protection,Elixir,Consumable
+92,Elixir of Expertise,Elixir,Consumable
+93,Elixir of Mighty Thoughts,Elixir,Consumable
+94,Elixir of Mighty Agility,Elixir,Consumable
+95,Elixir of Mighty Fortitude,Elixir,Consumable
+96,Elixir of Spirit,Elixir,Consumable
+97,Elixir of Mighty Strength,Elixir,Consumable
+98,Guru's Elixir,Elixir,Consumable
+99,Spellpower Elixir,Elixir,Consumable
+100,Elixir of Minor Agility,Elixir,Consumable
+101,Elixir of Ironskin,Elixir,Consumable
+102,Earthen Elixir,Elixir,Consumable
+103,Elixir of Draenic Wisdom,Elixir,Consumable
+104,Intravenous Healing,Potion,Consumable
+105,Major Nature Protection,Potion,Consumable
+106,Insane Strength Potion,Potion,Consumable
+107,Great Rage Potion,Potion,Consumable
+108,Potion of Curing,Potion,Consumable
+109,Shrouding Potion,Potion,Consumable
+110,Major Fire Protection Potion,Potion,Consumable
+111,Crazy Alchemist's Potion,Potion,Consumable
+112,Powerful Rejuvenation Potion,Potion,Consumable
+113,Mighty Frost Protection Potion,Potion,Consumable
+114,Potion of Wild Magic,Potion,Consumable
+115,Endless Mana Potion,Potion,Consumable
+116,Endless Healing Potion,Potion,Consumable
+117,Indestructible Potion,Potion,Consumable
+118,Potion of Nightmares,Potion,Consumable
+119,Icy Mana Potion,Potion,Consumable
+120,Resurgent Healing Potion,Potion,Consumable
+121,Rage Potion,Potion,Consumable
+122,Heroic Potion,Potion,Consumable
