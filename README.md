@@ -35,11 +35,15 @@ Kullanılan Geliştirme ortamı ve kütüphaneler
 
 
 2. Kullandığımız Veri Yapıları(Şuana Kadar)
- 
+
     • Map (itemList)
+
     • HasSet(Players)
+
     • List(birden çok yerde kullanıldı performansı yüksek olduğu için)
+
     • HashMap(Login sınıfında kullanıcıları tutmak için)
+    
     
   
   
